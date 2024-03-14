@@ -38,7 +38,7 @@
             "name": "CalculatedTable 1",
             "source": {
               "type": "calculated",
-              "expression": " Datatable (\"ID\" , INTEGER , \"Tanım\", STRING, \"FIYAT\", INTEGER ,{{1,\"Ellli\",50},{2,\"Kırk\",40}})"
+              "expression": " Datatable (\"ID\" , INTEGER , \"Tanım\", STRING, \"FIYAT\", INTEGER ,{{1,\"Ellli\",50},{2,\"Kırk\",42}})"
             }
           }
         ]
