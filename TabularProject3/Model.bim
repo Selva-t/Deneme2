@@ -71,11 +71,6 @@
         ]
       }
     ],
-    "roles": [
-      {
-        "name": "aadmn"
-      }
-    ],
     "annotations": [
       {
         "name": "ClientCompatibilityLevel",
