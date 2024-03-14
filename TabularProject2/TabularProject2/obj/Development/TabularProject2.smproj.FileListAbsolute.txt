@@ -1,0 +1,8 @@
+C:\Users\emine\source\repos\DevSSIS\TabularProject2\TabularProject2\bin\Model.asdatabase
+C:\Users\emine\source\repos\DevSSIS\TabularProject2\TabularProject2\bin\Model.deploymenttargets
+C:\Users\emine\source\repos\DevSSIS\TabularProject2\TabularProject2\bin\Model.deploymentoptions
+C:\Users\emine\source\repos\DevSSIS\TabularProject2\TabularProject2\obj\Development\TabularProject2.smproj.AssemblyReference.cache
+C:\Users\emine\source\repos\DevSSIS\TabularProject2\TabularProject2\obj\Development\TabularProject2.smproj.CoreCompileInputs.cache
+C:\Users\emine\source\repos\DevSSIS\TabularProject2\TabularProject2\obj\Development\Model.asdatabase
+C:\Users\emine\source\repos\DevSSIS\TabularProject2\TabularProject2\obj\Development\Model.deploymentoptions
+C:\Users\emine\source\repos\DevSSIS\TabularProject2\TabularProject2\obj\Development\Model.deploymenttargets
