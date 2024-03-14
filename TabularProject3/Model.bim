@@ -65,10 +65,15 @@
             "name": "CalculatedTable 1",
             "source": {
               "type": "calculated",
-              "expression": "DATATABLE(a,int, 6)"
+              "expression": "DATATABLE(a,int, 7)"
             }
           }
         ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "hgf"
       }
     ],
     "annotations": [
