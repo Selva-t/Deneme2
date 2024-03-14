@@ -1,0 +1,82 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1600,
+  "model": {
+    "culture": "tr-TR",
+    "discourageImplicitMeasures": true,
+    "tables": [
+      {
+        "name": "CalculationGroup 1",
+        "calculationGroup": {
+          "calculationItems": [
+            {
+              "name": "CalculationItem 1"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "name": "CalculationItemColumn 1",
+            "dataType": "string",
+            "sourceColumn": "Name"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "CalculationGroup 1",
+            "mode": "import",
+            "source": {
+              "type": "calculationGroup"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CalculationGroup 2",
+        "calculationGroup": {
+          "precedence": 1,
+          "calculationItems": [
+            {
+              "name": "CalculationItem 1"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "name": "CalculationItemColumn 1",
+            "dataType": "string",
+            "sourceColumn": "Name"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "CalculationGroup 2",
+            "mode": "import",
+            "source": {
+              "type": "calculationGroup"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CalculatedTable 1",
+        "partitions": [
+          {
+            "name": "CalculatedTable 1",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(a,int, 5)"
+            }
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "700"
+      }
+    ]
+  },
+  "id": "SemanticModel"
+}
