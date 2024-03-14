@@ -65,7 +65,7 @@
             "name": "CalculatedTable 1",
             "source": {
               "type": "calculated",
-              "expression": "DATATABLE(a,int, 5)"
+              "expression": "DATATABLE(a,int, 6)"
             }
           }
         ]
